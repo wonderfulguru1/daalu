@@ -1,7 +1,7 @@
 # Daalu.com.ng is a loyalty  System built with  Laravel 7.x
 
 ## Project Setup 
-1. Git clone - `https://github.com/ManiruzzamanAkash/laravel-role.git`
+1. Git clone - https://github.com/wonderfulguru1/daalu.git
 2. Install Laravel Dependencies - `composer update`
 3. Run Project - `php artisan serve`
 
