@@ -6,7 +6,7 @@
 3. Run Project - `php artisan serve`
 
 
-So, You've got the project of Laravel Role & Permission Management on your http://localhost:8000
+So, You've got the project of Laravel daalu.com http://localhost:8000
 
 ## Setup 2
 1. Login using Super Admin Credential - 
