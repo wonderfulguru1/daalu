@@ -151,7 +151,7 @@ Dashboard Page - Admin Panel
                                         <td class="text-left fs-13"><i class="feather feather-map-pin text-muted mr-2"></i>{{ date('h M Y',$earnTransactions->time)}}
                                         </td>
                                         <td class="text-right"> 
-                                            <a href="#" class="action-btns" data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                            <a href="#" class="action-btns" data-toggle="tooltip" data-placement="top" title="View Transaction"><i
                                                     class="feather feather-eye text-danger"></i></a>
                                         </td>
                                     </tr>
@@ -181,7 +181,7 @@ Dashboard Page - Admin Panel
                                         <td class="text-left fs-13"><i class="feather feather-map-pin text-muted mr-2"></i>{{ date('h M Y',$earnTransactions->time)}}
                                         </td>
                                         <td class="text-right"> 
-                                            <a href="#" class="action-btns" data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                            <a href="#" class="action-btns" data-toggle="tooltip" data-placement="top" title="View Transaction"><i
                                                     class="feather feather-eye text-danger"></i></a>
                                         </td>
                                     </tr>

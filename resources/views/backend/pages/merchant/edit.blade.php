@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends(themeLayout('layouts.master'))
 
 @section('template_title')
     Update Merchant
@@ -16,11 +16,11 @@
                         <span class="card-title">Update Merchant</span>
                     </div>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('merchants.update', $merchant->id) }}"  role="form" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('admin.merchants.update', $merchant->id) }}"  role="form" enctype="multipart/form-data">
                             {{ method_field('PATCH') }}
                             @csrf
 
-                            @include('merchant.form')
+                            @include(theme('merchant.form'))
 
                         </form>
                     </div>

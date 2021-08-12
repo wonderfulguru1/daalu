@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends(themeLayout('layouts.master'))
 
 @section('template_title')
     Create Merchant
@@ -16,10 +16,10 @@
                         <span class="card-title">Create Merchant</span>
                     </div>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('merchants.store') }}"  role="form" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('admin.merchants.store') }}"  role="form" enctype="multipart/form-data">
                             @csrf
 
-                            @include('merchant.form')
+                            @include(theme('merchant.form'))
 
                         </form>
                     </div>

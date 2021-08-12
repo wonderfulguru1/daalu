@@ -1,4 +1,4 @@
-@extends(themeLayout('layouts.master')
+@extends(themeLayout('layouts.master'))
 
 @section('template_title')
     Create Customer

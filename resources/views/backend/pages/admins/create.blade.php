@@ -14,10 +14,7 @@ Admin Create - Admin Panel
     }
 </style>
 @endsection
-
-
-@section('admin-content')
-
+@section('content')
 <!-- page title area start -->
 <div class="page-title-area">
     <div class="row align-items-center">
@@ -36,7 +33,6 @@ Admin Create - Admin Panel
         </div>
     </div>
 </div>
-<!-- page title area end -->
 
 <div class="main-content-inner">
     <div class="row">

@@ -5,6 +5,7 @@ namespace App\Models;
 
 use App\Models\Gender;
 use App\Models\Status;
+use App\Models\CustomerTransactionsLog;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -107,6 +108,11 @@ class Customer extends Model
 	public function transStat()
 	{
 	    return $this->hasOne(TransStat::class, 'customer_id');
+	}
+
+	public function transactionsLog()
+	{
+	    return $this->hasMany(CustomerTransactionsLog::class, 'customer_id');
 	}
 
 }

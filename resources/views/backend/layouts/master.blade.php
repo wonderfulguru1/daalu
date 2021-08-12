@@ -1,10 +1,11 @@
 <html>
 
 <head>
-     <base href="{{URL::to('/')}}" target="_blank">
+     <base href="{{URL::to('/')}}" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <meta content="DayOne - It is one of the Major Dashboard Template which includes - HR, Employee and Job Dashboard. This template has multipurpose HTML template and also deals with Task, Project, Client and Support System Dashboard." name="description">
-        <link href="assets/img/favicon.ico" type="image/x-icon" rel="icon"/><link href="assets/img/favicon.ico" type="image/x-icon" rel="shortcut icon"/>   
+        <link href="assets/img/favicon.ico" type="image/x-icon" rel="icon"/><link href="assets/img/favicon.ico" type="image/x-icon" rel="shortcut icon"/>  
+    <title>Daalu.com.ng</title> 
 
     <link href="assets/plugins/iconfonts/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link rel="icon" href="assets/images/brand/favicon.ico" type="image/x-icon">
@@ -29,37 +30,40 @@
             padding-top: 15px;
         }
 
-    .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active, .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
-    color: #ebeff8;
-    box-shadow: none;
-}
+            .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active, .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
+            color: #ebeff8;
+            box-shadow: none;
+        }
 
-.horizontal-main.hor-menu {
-    background: #e42821;
-    border-bottom: 1px solid #e42821;
-    box-shadow: 0 6px 18px rgb(196 205 224 / 10%);
-    padding: .75rem;
-}
+        .horizontal-main.hor-menu {
+            background: #e42821;
+            border-bottom: 1px solid #e42821;
+            box-shadow: 0 6px 18px rgb(196 205 224 / 10%);
+            padding: .75rem;
+        }
 
-.horizontalMenu>.horizontalMenu-list>li>a {
-    display: block;
-    padding: 8px 20px 8px 20px;
-    text-decoration: none;
-    position: relative;
-    color: #000000;
-    font-weight: 500;
-    font-size: 14px;
-    margin: 0 2px;
-    vertical-align: middle;
-}
+        .horizontalMenu>.horizontalMenu-list>li>a {
+            display: block;
+            padding: 8px 20px 8px 20px;
+            text-decoration: none;
+            position: relative;
+            color: #000000;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 0 2px;
+            vertical-align: middle;
+        }
 
-.text-danger {
-    color: #fe7f00!important;
-}
+        .text-danger {
+            color: #fe7f00!important;
+        }
 
-.text-primary {
-    color: #0dcd94!important;
-}
+        .text-primary {
+            color: #0dcd94!important;
+        }
+        .hidden{
+            display: none
+        }
     </style>
 </head>
 

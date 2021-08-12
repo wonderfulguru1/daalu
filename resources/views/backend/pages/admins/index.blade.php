@@ -14,7 +14,7 @@ Admins - Admin Panel
 @endsection
 
 
-@section('admin-content')
+@section('content')
 
 <!-- page title area start -->
 <div class="page-title-area">

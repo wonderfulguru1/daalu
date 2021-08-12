@@ -65,7 +65,6 @@
                                         <a href="#" class=""> <i class="feather feather-codepen hor-icon"></i> Customer Manager <i class="fa fa-angle-down horizontal-icon"></i> </a>
                                         <ul class="sub-menu">
                                             <li aria-haspopup="true"><a href="{{url('admin/customers')}}">Customer Overview</a></li>
-                                            <li aria-haspopup="true"><a href="widgets-1.html">Customer Virtuals Cards Mangament</a></li>
                                         </ul>
                                     </li>
                                     <li aria-haspopup="true"><span class="horizontalMenu-click"><i
@@ -92,11 +91,10 @@
                                         <a href="#" class="sub-icon"> <i class="feather feather-layers hor-icon"></i> Account Management
                                             <i class="fa fa-angle-down horizontal-icon"></i> </a>
                                             <ul class="sub-menu">
-                                                <li aria-haspopup="true"><a href="form-elements.html"> User management</a>
+                                                <li aria-haspopup="true"><a href="{{url('admin/admins')}}"> Admins management</a>
+                                                <li aria-haspopup="true"><a href="{{url('admin/users')}}"> User management</a>
                                                 </li>
-                                                <li aria-haspopup="true"><a href="advanced-forms.html"> Roles Managment</a>
-                                                </li>
-                                                <li aria-haspopup="true"><a href="advanced-forms.html"> Permisions Managment</a>
+                                                <li aria-haspopup="true"><a href="{{url('admin/roles')}}"> Roles Managment</a>
                                                 </li>
                                             </ul>
                                     </li>

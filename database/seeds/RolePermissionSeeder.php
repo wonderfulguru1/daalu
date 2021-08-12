@@ -15,10 +15,10 @@ class RolePermissionSeeder extends Seeder
     public function run()
     {
         // Create Roles
-        $roleSuperAdmin = Role::create(['name' => 'superadmin']);
-        $roleAdmin = Role::create(['name' => 'admin']);
-        $roleEditor = Role::create(['name' => 'editor']);
-        $roleUser = Role::create(['name' => 'user']);
+       $roleSuperAdmin = Role::create(['name' => 'superadmin']);
+       $roleAdmin = Role::create(['name' => 'admin']);
+       $roleEditor = Role::create(['name' => 'editor']);
+       $roleUser = Role::create(['name' => 'user']);
 
 
         // Permission List as array
@@ -32,14 +32,27 @@ class RolePermissionSeeder extends Seeder
                 ]
             ],
             [
-                'group_name' => 'blog',
+                'group_name' => 'merchants',
                 'permissions' => [
-                    // Blog Permissions
-                    'blog.create',
-                    'blog.view',
-                    'blog.edit',
-                    'blog.delete',
-                    'blog.approve',
+                    'merchants.view',
+                    'merchants.edit',
+                    'merchants.create'
+                ]
+            ],
+            [
+                'group_name' => 'stores',
+                'permissions' => [
+                    'stores.view',
+                    'stores.edit',
+                    'stores.create'
+                ]
+            ],
+             [
+                'group_name' => 'customers',
+                'permissions' => [
+                    'customers.view',
+                    'customers.edit',
+                    'customers.create'
                 ]
             ],
             [

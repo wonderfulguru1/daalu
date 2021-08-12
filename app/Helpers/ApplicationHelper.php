@@ -30,6 +30,26 @@ if (!function_exists('getCustomerStats')) {
 }
 
 
+if (!function_exists('customerTransactionsLog')) {
+    /**
+     * @param int   $statusId    
+     */
+    function customerTransactionsLog($customerId, $transactionType = null)
+    {   
+
+        $customerTransactionsLog = CustomerTransactionsLog::orderBy('id', 'DESC');
+        if($customerId){
+            $customerTransactionsLog =  $customerTransactionsLog->where(['customer_id'=>$customerId]);
+        } 
+        if($transactionType){
+            $customerTransactionsLog =  $customerTransactionsLog->where(['transaction'=>$transactionType]);
+        } 
+        $customerTransactionsLog =  $customerTransactionsLog->get();
+        return $customerTransactionsLog;
+    }
+}
+
+
 
 if (!function_exists('getMerchantStats')) {
     /**

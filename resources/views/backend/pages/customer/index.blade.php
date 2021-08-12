@@ -10,7 +10,7 @@
     <div class="page-leftheader">
         <h4 class="page-title">All Customers</h4>
     </div>
-    <div class="page-rightheader ml-md-auto">
+    <div class="page-rightheader ml-md-auto hidden">
         <div class="d-flex align-items-end flex-wrap my-auto right-content breadcrumb-right">
             <div class="btn-list"> <a href="#" class="btn btn-primary " data-toggle="modal" data-target="#newcompanymodal"><i
                         class="feather feather-plus fs-15 my-auto mr-2"></i>Add New Customer</a>
@@ -113,7 +113,7 @@
                                             </td>
                                             <td>{{ date('h M Y', strtotime($customer->created)) }}</td>
 
-                                            <td> <span class="badge badge-{{$customer->status->status}}">{{$customer->status->status}}</span>
+                                            <td> <span class="badge badge-{{$customer->status->color}}">{{$customer->status->status}}</span>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex">
